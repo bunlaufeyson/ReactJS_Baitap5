@@ -1,0 +1,32 @@
+======= Buoi 1 ======
+* SPA
+* Component
+    - stateful component: class (qua khứ) - lifecycle: state
+    - stateless component: function (*) - hooks: useState
+
+======= Buoi 2 ======
+* Rendering Elements: {}
+* Event: onClick
+* State:
+    Nếu như giá tri của state bị thay đổi => component re-render
+
+======= Buoi 3 ======
+Communication components:
+    Props: Truyền data từ component cha => component con
+    Lifting state up: Truyền data từ component con => component cha
+
+======= Buoi 4 ======
+    Shopping phone - Add to cart
+
+======= Buoi 5 ======
+    Redux
+
+
+======= Buoi 6 ======
+    Form Validation
+
+======= Buoi 7 ======
+    Hooks: useState; useEffect; useCallback; useMemo; Custom Hook
+
+
+Router; API
