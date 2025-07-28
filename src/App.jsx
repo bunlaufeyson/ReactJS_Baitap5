@@ -12,27 +12,27 @@
 // import FormValidation from "./form-validation";
 // import Hooks from "./hooks";
 // import { useState } from "react";
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import BookingPage from './booking/pages/BookingPage';
-import ResultPage from './booking/pages/ResultPage';
-import { Provider } from 'react-redux';
-import { store } from './booking/redux/store';
+// import React from 'react';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// // import BookingPage from './booking/pages/BookingPage';
+// // import ResultPage from './booking/pages/ResultPage';
+// import { Provider } from 'react-redux';
+// // import { store } from './booking/redux/store';
 
-const App = () => {
-  return (
-    <Provider store={store}>
-      <Router>
-        <Routes>
-          <Route path="/" element={<BookingPage />} />
-          <Route path="/result" element={<ResultPage />} />
-        </Routes>
-      </Router>
-    </Provider>
-  );
-};
+// // const App = () => {
+//   return (
+//     <Provider store={store}>
+//       <Router>
+//         <Routes>
+//           <Route path="/" element={<BookingPage />} />
+//           <Route path="/result" element={<ResultPage />} />
+//         </Routes>
+//       </Router>
+//     </Provider>
+//   );
+// };
 
-export default App;
+// export default App;
 
 
 // function App() {
